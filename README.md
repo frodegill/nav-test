@@ -1,2 +1,3 @@
 # nav-test
-Small test for NAV Yrkesskade
+Kjapp løsning av oppgaven fra NAV Yrkesskade. Har brukt github til å opprette et tomt repo, start.spring.io til å opprette et Spring Boot-prosjekt, og deretter implementert en enkel Spring Boot-applikasjon som henter ned stillingsannonser ukesvis seks måneder bakover i tid. For ikke å bruke alt for mye tid har jeg brukt litt i overkant mye static metoder, og feilhåndtering er også langt fra fullstendig. Har lagt inn helt trivielle Junit-tester og én integrasjonstest. Har valgt å ikke legge inn noen mock-test.
+Jeg har brukt IntelliJ til utvikling, applikasjonen kompilerer med `mvn clean install` og kan kjøres med `java -jar target/nav-test-0.0.1-SNAPSHOT.jar`.
