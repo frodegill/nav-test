@@ -22,7 +22,7 @@ import java.util.*;
 public class SmallTestForNavYrkesskadeApplication implements CommandLineRunner {
 	private static final Logger LOGGER = LoggerFactory.getLogger(SmallTestForNavYrkesskadeApplication.class);
 
-	public static Period SEARCH_PERIOD = Period.ofMonths(6); //How far back are we searching
+	public static final Period SEARCH_PERIOD = Period.ofMonths(6); //How far back are we searching
 
 	@Autowired
 	private Environment environment;
